@@ -13,7 +13,7 @@ function sumTo(n) {
 
 // 2.Factorial of n: The factorial of n is the product of all the integers preceding n, starting with 1, e.g.
 
-/ function Factorial(n) {
+ function Factorialto(n) {
   let Factorial = 1;
   for (let i = 1; i <= n; i++) {
     Factorial *= i;
