@@ -2,23 +2,25 @@
 //------------------------- Basic Requirments -------------------------
 // 1.Summation to n: Let's implement the function sum that takes a single parameter n, and computes the sum of all integers up to n starting from 0, e.g
 
-//  function sum(n) {
-//  // TODO: your code here
-//  }
-//  sum(3); // => 3 + 2 + 1 + 0 => 6
-//  sum(4); // => 4 + 3 + 2 + 1 + 0 => 10
-//  sum(5); // => 5 + 4 + 3 + 2 + 1 + 0 => 15
-// HINT: We can rephrase 'the sum of n' as 'n plus the sum of n - 1'.
+function sumTo(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
 
 // 2.Factorial of n: The factorial of n is the product of all the integers preceding n, starting with 1, e.g.
 
-//  function factorial(n) {
-//  // TODO: your code here
-//  }
-//  factorial(3); // => 3 * 2 * 1 => 6
-//  factorial(4); // => 4 * 3 * 2 * 1 => 24
-//  factorial(5); // => 5 * 4 * 3 * 2 * 1 => 120
-// Implement the factorial function by observing that the 'factorial of n' can be rephrased as 'n times the factorial of n - 1'.
+/ function Factorial(n) {
+  let Factorial = 1;
+  for (let i = 1; i <= n; i++) {
+    Factorial *= i;
+  }
+  return Factorial;
+}
+
 
 // 3.Repeating a String n Times: Let's write a function called repeatString that takes two parameters: a string str, which is the string to be repeated, and count -- a number representing how many times the string str should be repeated, e.g.
 
