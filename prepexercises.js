@@ -9,7 +9,8 @@ function sumTo(n) {
   }
   return sum;
 }
-
+sumTo(4)
+10
 
 // 2.Factorial of n: The factorial of n is the product of all the integers preceding n, starting with 1, e.g.
 
@@ -20,7 +21,8 @@ function sumTo(n) {
   }
   return Factorial;
 }
-
+Factorialto(4)
+24
 
 // 3.Repeating a String n Times: Let's write a function called repeatString that takes two parameters: a string str, which is the string to be repeated, and count -- a number representing how many times the string str should be repeated, e.g.
 
